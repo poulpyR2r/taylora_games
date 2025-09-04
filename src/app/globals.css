@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap");
+@import url("https://db.onlinewebfonts.com/c/937cc8420553d2c374db977e3c1e5d49?family=Swiss+721+Medium");
+@import url("https://fonts.googleapis.com/css2?family=Recursive:wght@300..1000&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-inter: "Inter", sans-serif;
+  --font-spicy-rice: "Spicy Rice", cursive;
+  --font-play: "Play", sans-serif;
+  --font-swiss-721-medium: "Swiss 721 Medium", sans-serif;
+  --font-recursive: "Recursive", sans-serif;
+  --font-recursive-medium: "Recursive Medium", sans-serif;
+
+  /* Palette principale (#312A39) */
+  --color-primary: #312a39;
+  --color-primary-80: rgba(49, 42, 57, 0.8);
+  --color-primary-60: rgba(49, 42, 57, 0.6);
+  --color-primary-40: rgba(49, 42, 57, 0.4);
+
+  /* Palette secondaire (#9C86BE) */
+  --color-secondary: rgba(160, 32, 240, 1);
+  --color-secondary-90: rgba(160, 32, 240, 0.9);
+  --color-secondary-80: rgba(160, 32, 240, 0.8);
+  --color-secondary-70: rgba(160, 32, 240, 0.7);
+  --color-secondary-60: rgba(160, 32, 240, 0.6);
+  --color-secondary-50: rgba(160, 32, 240, 0.5);
+  --color-secondary-40: rgba(160, 32, 240, 0.4);
+  --color-secondary-30: rgba(160, 32, 240, 0.3);
+  --color-secondary-20: rgba(160, 32, 240, 0.2);
+  --color-secondary-10: rgba(160, 32, 240, 0.1);
+
+  /* Accent & fond clair */
+  --color-accent: #efe7ed;
+  --color-accent-light: #f7f3f6;
+
+  --color-accent-80: rgba(239, 231, 237, 0.8);
+  --color-accent-60: rgba(239, 231, 237, 0.6);
+  --color-accent-40: rgba(239, 231, 237, 0.4);
+  --color-accent-20: rgba(239, 231, 237, 0.2);
+  --color-accent-10: rgba(239, 231, 237, 0.1);
+  --color-accent-5: rgba(239, 231, 237, 0.05);
+  --color-accent-2: rgba(239, 231, 237, 0.02);
+  --color-accent-1: rgba(239, 231, 237, 0.01);
+  --color-accent-0: rgba(239, 231, 237, 0);
+}
+
+/* Police Inter pour tous les paragraphes */
+p {
+  font-family: var(--font-inter), Inter, sans-serif;
+}
+
+/* Police Recursive pour tous les titres */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-recursive), Recursive, sans-serif;
+}
