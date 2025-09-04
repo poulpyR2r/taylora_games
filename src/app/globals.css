@@ -1,17 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap");
-@import url("https://db.onlinewebfonts.com/c/937cc8420553d2c374db977e3c1e5d49?family=Swiss+721+Medium");
-@import url("https://fonts.googleapis.com/css2?family=Recursive:wght@300..1000&display=swap");
 @import "tailwindcss";
 
 @theme {
-  --font-inter: "Inter", sans-serif;
-  --font-spicy-rice: "Spicy Rice", cursive;
-  --font-play: "Play", sans-serif;
-  --font-swiss-721-medium: "Swiss 721 Medium", sans-serif;
-  --font-recursive: "Recursive", sans-serif;
-  --font-recursive-medium: "Recursive Medium", sans-serif;
+  --font-inter: var(--font-inter);
+  --font-recursive: var(--font-recursive);
 
   /* Palette principale (#312A39) */
   --color-primary: #312a39;
@@ -48,7 +39,7 @@
 
 /* Police Inter pour tous les paragraphes */
 p {
-  font-family: var(--font-inter), Inter, sans-serif;
+  font-family: var(--font-inter), system-ui, sans-serif;
 }
 
 /* Police Recursive pour tous les titres */
@@ -58,5 +49,5 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-recursive), Recursive, sans-serif;
+  font-family: var(--font-recursive), system-ui, sans-serif;
 }
